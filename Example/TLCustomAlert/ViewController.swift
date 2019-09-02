@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import TLCustomAlert
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let alert = TLCustomAlertView()
+        let okayAction = TLCustomAlertAction(title: "Okay") {
+            // Called when okay button is tapped
+        }
+        let cancelAction = TLCustomAlertAction(title: "Cancel") {
+            // Called when cancel button is tapped
+        }
+        alert.showAlertView(superview: view, title: "CustomApp", text: "This is a custom alert message", confirmAction: okayAction, cancelAction: cancelAction)
     }
 
     override func didReceiveMemoryWarning() {
