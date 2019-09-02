@@ -1,0 +1,6 @@
+framework module TLCustomAlert {
+  umbrella header "TLCustomAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

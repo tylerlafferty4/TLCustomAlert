@@ -1,0 +1,22 @@
+{
+  "name": "TLCustomAlert",
+  "version": "0.1.0",
+  "summary": "A short description of TLCustomAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tylerlafferty4@gmail.com/TLCustomAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tylerlafferty4@gmail.com": "tylerlafferty4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tylerlafferty4@gmail.com/TLCustomAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TLCustomAlert/Classes/**/*"
+}

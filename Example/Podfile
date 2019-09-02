@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TLCustomAlert_Example' do
+  pod 'TLCustomAlert', :path => '../'
+
+  target 'TLCustomAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

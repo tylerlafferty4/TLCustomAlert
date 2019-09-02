@@ -1,0 +1,16 @@
+PODS:
+  - TLCustomAlert (0.1.0)
+
+DEPENDENCIES:
+  - TLCustomAlert (from `../`)
+
+EXTERNAL SOURCES:
+  TLCustomAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TLCustomAlert: 5622dcb27364af9766e82815ae6841bb1f6cc992
+
+PODFILE CHECKSUM: b9f4c2982306e93394f5292f467f2b5e37f64fb0
+
+COCOAPODS: 1.7.5

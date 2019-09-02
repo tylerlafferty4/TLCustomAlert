@@ -1,0 +1,6 @@
+framework module Pods_TLCustomAlert_Tests {
+  umbrella header "Pods-TLCustomAlert_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

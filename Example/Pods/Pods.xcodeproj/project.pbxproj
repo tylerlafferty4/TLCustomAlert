@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B26B91B922695C8006B19677168BC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2AD93F128928873230BD334F51762FB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		36892B169C4C64A4404F5DBCD496376C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		374F2DA89DACF28F0DB949B4AC023169 /* TLCustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EB8FD4456D5A17172640FC8E12A03 /* TLCustomAlert.swift */; };
+		503BE3FEE2F79CA6EE2FA80551F72112 /* Pods-TLCustomAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C91E58A9FE44F7AD621C15A795D1EE9A /* Pods-TLCustomAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A09981B1DE67AFCC60E4B82CB6FEF3 /* TLCustomAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2035CCBC1E60A21112B88C471745AF37 /* TLCustomAlert-dummy.m */; };
+		B35A1FA1979FDA0D32B991817B8F380C /* TLCustomAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9478A85B5E85F3CC6C8CD3212FE7650 /* TLCustomAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C354475A8770E892E1707A3878126C19 /* Pods-TLCustomAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F92C40F17C53997B9739029B9D3DC25A /* Pods-TLCustomAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3384CAD8414740B37051B3B06372457 /* Pods-TLCustomAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7700D2DC56DFABE86D4BAFC280A6781F /* Pods-TLCustomAlert_Example-dummy.m */; };
+		FCD915AF264D4B7917EB4CC8528DE95C /* Pods-TLCustomAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C72F59D89B889C9007C4F64E34B8CE2 /* Pods-TLCustomAlert_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B679275F68B583D433DA0BC39A039E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54D21AEEEC41116166F53F8E01C1FA33;
+			remoteInfo = TLCustomAlert;
+		};
+		B7E70F9AAE2E6859CC31E086D5E8A189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE37A86C55A4AE8AE7FEF7E74E3A061;
+			remoteInfo = "Pods-TLCustomAlert_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09AB85C82F7C6BC7AF6EB2D0B9D7D130 /* TLCustomAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLCustomAlert.modulemap; sourceTree = "<group>"; };
+		0CC38422F5108266C51751A75C66B97E /* Pods-TLCustomAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLCustomAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E886DCC6DCC217B4DA22D39CC2C9262 /* Pods-TLCustomAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLCustomAlert_Example.modulemap"; sourceTree = "<group>"; };
+		126D68898F941FC29EEA41264A8458D9 /* Pods-TLCustomAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLCustomAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2035CCBC1E60A21112B88C471745AF37 /* TLCustomAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLCustomAlert-dummy.m"; sourceTree = "<group>"; };
+		2188C426C79AD9168E37AF5A1C4B1F62 /* Pods-TLCustomAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLCustomAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		23F6002A88927824C97EB6F32E47AE5B /* Pods-TLCustomAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLCustomAlert_Tests-Info.plist"; sourceTree = "<group>"; };
+		24DF0BF87DFFAE40067C4DFB09F48058 /* Pods-TLCustomAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		258348A2E1E6E56B0E1D128CF9933E64 /* Pods_TLCustomAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCustomAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		283EE318B3D7172F9926D3B4F15943C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		373911515DBC8D34C4132223ED7212D5 /* Pods-TLCustomAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		392EB8FD4456D5A17172640FC8E12A03 /* TLCustomAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCustomAlert.swift; path = TLCustomAlert/Classes/TLCustomAlert.swift; sourceTree = "<group>"; };
+		3F35FB5F166DA83BEC158C5E834F6A8D /* TLCustomAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TLCustomAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4BEF117E00D66C52CF7A0488BE9BBC20 /* Pods-TLCustomAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLCustomAlert_Example-Info.plist"; sourceTree = "<group>"; };
+		7700D2DC56DFABE86D4BAFC280A6781F /* Pods-TLCustomAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLCustomAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		7966C46BA9F541E980CF311FAABFE81E /* TLCustomAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLCustomAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A893623E7AD4BDFEBA7EEF3B4FCFDC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		85362E4D9990EF4CA98450ADB8F18A86 /* Pods-TLCustomAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF9724FDE7FEC9C02A76165216657EB /* Pods-TLCustomAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLCustomAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8C72F59D89B889C9007C4F64E34B8CE2 /* Pods-TLCustomAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLCustomAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		8E41C84F1A64FA6F49AA289B46FB267B /* TLCustomAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLCustomAlert-prefix.pch"; sourceTree = "<group>"; };
+		9AAFFD72273C34ED9E4DAA5495FD1F34 /* Pods-TLCustomAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLCustomAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A52CFE68BD2C5C3F1003D105732EA6E0 /* Pods-TLCustomAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLCustomAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9478A85B5E85F3CC6C8CD3212FE7650 /* TLCustomAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLCustomAlert-umbrella.h"; sourceTree = "<group>"; };
+		C305E613BF62B8351E3FD295B798E05B /* TLCustomAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLCustomAlert.xcconfig; sourceTree = "<group>"; };
+		C91E58A9FE44F7AD621C15A795D1EE9A /* Pods-TLCustomAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLCustomAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CFC4EC3D99042970C8EB8E6D420F636E /* TLCustomAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLCustomAlert-Info.plist"; sourceTree = "<group>"; };
+		D89A1E75A012B3084A3FADD8ABA01694 /* Pods_TLCustomAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCustomAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4477801F66E3CBB79E9DC9C0435C230 /* Pods-TLCustomAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLCustomAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F92C40F17C53997B9739029B9D3DC25A /* Pods-TLCustomAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLCustomAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F61C82F99566792435B15A4CE49439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD93F128928873230BD334F51762FB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8410CA196E924575235A4B3F44D79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B26B91B922695C8006B19677168BC12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C817223DABDFF826A1E61586F782F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36892B169C4C64A4404F5DBCD496376C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFDCCAC13E891F4EDBF11441454682E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89A1E75A012B3084A3FADD8ABA01694 /* Pods_TLCustomAlert_Example.framework */,
+				258348A2E1E6E56B0E1D128CF9933E64 /* Pods_TLCustomAlert_Tests.framework */,
+				7966C46BA9F541E980CF311FAABFE81E /* TLCustomAlert.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12315D8112CCC0E697DCC695D7B366EB /* TLCustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				392EB8FD4456D5A17172640FC8E12A03 /* TLCustomAlert.swift */,
+				9D4356B11ADE542E7D283517991FCBDA /* Pod */,
+				D25DE8101986D298B121A4C8D8E31E79 /* Support Files */,
+			);
+			name = TLCustomAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		317A885D72AAB7BC0791C7FB93CDCF14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12315D8112CCC0E697DCC695D7B366EB /* TLCustomAlert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9D4356B11ADE542E7D283517991FCBDA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				283EE318B3D7172F9926D3B4F15943C9 /* LICENSE */,
+				7A893623E7AD4BDFEBA7EEF3B4FCFDC1 /* README.md */,
+				3F35FB5F166DA83BEC158C5E834F6A8D /* TLCustomAlert.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BB555ECEBA4F351A59D00EA9683B4E3D /* Pods-TLCustomAlert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2188C426C79AD9168E37AF5A1C4B1F62 /* Pods-TLCustomAlert_Tests.modulemap */,
+				A52CFE68BD2C5C3F1003D105732EA6E0 /* Pods-TLCustomAlert_Tests-acknowledgements.markdown */,
+				126D68898F941FC29EEA41264A8458D9 /* Pods-TLCustomAlert_Tests-acknowledgements.plist */,
+				8C72F59D89B889C9007C4F64E34B8CE2 /* Pods-TLCustomAlert_Tests-dummy.m */,
+				23F6002A88927824C97EB6F32E47AE5B /* Pods-TLCustomAlert_Tests-Info.plist */,
+				C91E58A9FE44F7AD621C15A795D1EE9A /* Pods-TLCustomAlert_Tests-umbrella.h */,
+				85362E4D9990EF4CA98450ADB8F18A86 /* Pods-TLCustomAlert_Tests.debug.xcconfig */,
+				9AAFFD72273C34ED9E4DAA5495FD1F34 /* Pods-TLCustomAlert_Tests.release.xcconfig */,
+			);
+			name = "Pods-TLCustomAlert_Tests";
+			path = "Target Support Files/Pods-TLCustomAlert_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				317A885D72AAB7BC0791C7FB93CDCF14 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0EFDCCAC13E891F4EDBF11441454682E /* Products */,
+				F5A6E8ABEADC54486AC150E3B01AA6F9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25DE8101986D298B121A4C8D8E31E79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09AB85C82F7C6BC7AF6EB2D0B9D7D130 /* TLCustomAlert.modulemap */,
+				C305E613BF62B8351E3FD295B798E05B /* TLCustomAlert.xcconfig */,
+				2035CCBC1E60A21112B88C471745AF37 /* TLCustomAlert-dummy.m */,
+				CFC4EC3D99042970C8EB8E6D420F636E /* TLCustomAlert-Info.plist */,
+				8E41C84F1A64FA6F49AA289B46FB267B /* TLCustomAlert-prefix.pch */,
+				B9478A85B5E85F3CC6C8CD3212FE7650 /* TLCustomAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLCustomAlert";
+			sourceTree = "<group>";
+		};
+		D450EADAE5702D264FC00AF42347D43E /* Pods-TLCustomAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0E886DCC6DCC217B4DA22D39CC2C9262 /* Pods-TLCustomAlert_Example.modulemap */,
+				0CC38422F5108266C51751A75C66B97E /* Pods-TLCustomAlert_Example-acknowledgements.markdown */,
+				E4477801F66E3CBB79E9DC9C0435C230 /* Pods-TLCustomAlert_Example-acknowledgements.plist */,
+				7700D2DC56DFABE86D4BAFC280A6781F /* Pods-TLCustomAlert_Example-dummy.m */,
+				8AF9724FDE7FEC9C02A76165216657EB /* Pods-TLCustomAlert_Example-frameworks.sh */,
+				4BEF117E00D66C52CF7A0488BE9BBC20 /* Pods-TLCustomAlert_Example-Info.plist */,
+				F92C40F17C53997B9739029B9D3DC25A /* Pods-TLCustomAlert_Example-umbrella.h */,
+				24DF0BF87DFFAE40067C4DFB09F48058 /* Pods-TLCustomAlert_Example.debug.xcconfig */,
+				373911515DBC8D34C4132223ED7212D5 /* Pods-TLCustomAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-TLCustomAlert_Example";
+			path = "Target Support Files/Pods-TLCustomAlert_Example";
+			sourceTree = "<group>";
+		};
+		F5A6E8ABEADC54486AC150E3B01AA6F9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D450EADAE5702D264FC00AF42347D43E /* Pods-TLCustomAlert_Example */,
+				BB555ECEBA4F351A59D00EA9683B4E3D /* Pods-TLCustomAlert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39384C90F2D45E2E070D5CE1AFE8672A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35A1FA1979FDA0D32B991817B8F380C /* TLCustomAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC71EB2EDE8CA22939A18E5E8546159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BE3FEE2F79CA6EE2FA80551F72112 /* Pods-TLCustomAlert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24BF9C13ED2E83AE3C2787E96B7C1CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C354475A8770E892E1707A3878126C19 /* Pods-TLCustomAlert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54D21AEEEC41116166F53F8E01C1FA33 /* TLCustomAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1868F7FFC42DB0AF32A29597AB51ECAA /* Build configuration list for PBXNativeTarget "TLCustomAlert" */;
+			buildPhases = (
+				39384C90F2D45E2E070D5CE1AFE8672A /* Headers */,
+				70FA7DF004195C70CCFC531C739A0192 /* Sources */,
+				5B8410CA196E924575235A4B3F44D79D /* Frameworks */,
+				F3A6E2E1B8EFD431CC0CED3CEB697F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLCustomAlert;
+			productName = TLCustomAlert;
+			productReference = 7966C46BA9F541E980CF311FAABFE81E /* TLCustomAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AE37A86C55A4AE8AE7FEF7E74E3A061 /* Pods-TLCustomAlert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AB1494010DF2E626C86ECF16604839 /* Build configuration list for PBXNativeTarget "Pods-TLCustomAlert_Example" */;
+			buildPhases = (
+				F24BF9C13ED2E83AE3C2787E96B7C1CF /* Headers */,
+				293300C25DCD9A2B54BFEFD277252896 /* Sources */,
+				53F61C82F99566792435B15A4CE49439 /* Frameworks */,
+				87728435698FC8C1D76FF83C89CF6DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E9E3376C62B2925EABD1AD246912C71 /* PBXTargetDependency */,
+			);
+			name = "Pods-TLCustomAlert_Example";
+			productName = "Pods-TLCustomAlert_Example";
+			productReference = D89A1E75A012B3084A3FADD8ABA01694 /* Pods_TLCustomAlert_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F54248A56E30597CD8B7A9E1526BB9A4 /* Pods-TLCustomAlert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5B7714B80CD914C9B9290E396AA752 /* Build configuration list for PBXNativeTarget "Pods-TLCustomAlert_Tests" */;
+			buildPhases = (
+				BFC71EB2EDE8CA22939A18E5E8546159 /* Headers */,
+				B7E1C3C8BF248B11718DA8724DE5F99B /* Sources */,
+				6C817223DABDFF826A1E61586F782F80 /* Frameworks */,
+				B98EE0D161CB95E01EC19BBEC0E9F733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF56313906F0163FB8E7C47D48F9B95E /* PBXTargetDependency */,
+			);
+			name = "Pods-TLCustomAlert_Tests";
+			productName = "Pods-TLCustomAlert_Tests";
+			productReference = 258348A2E1E6E56B0E1D128CF9933E64 /* Pods_TLCustomAlert_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0EFDCCAC13E891F4EDBF11441454682E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AE37A86C55A4AE8AE7FEF7E74E3A061 /* Pods-TLCustomAlert_Example */,
+				F54248A56E30597CD8B7A9E1526BB9A4 /* Pods-TLCustomAlert_Tests */,
+				54D21AEEEC41116166F53F8E01C1FA33 /* TLCustomAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87728435698FC8C1D76FF83C89CF6DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98EE0D161CB95E01EC19BBEC0E9F733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A6E2E1B8EFD431CC0CED3CEB697F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293300C25DCD9A2B54BFEFD277252896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3384CAD8414740B37051B3B06372457 /* Pods-TLCustomAlert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70FA7DF004195C70CCFC531C739A0192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374F2DA89DACF28F0DB949B4AC023169 /* TLCustomAlert.swift in Sources */,
+				B1A09981B1DE67AFCC60E4B82CB6FEF3 /* TLCustomAlert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1C3C8BF248B11718DA8724DE5F99B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD915AF264D4B7917EB4CC8528DE95C /* Pods-TLCustomAlert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E9E3376C62B2925EABD1AD246912C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLCustomAlert;
+			target = 54D21AEEEC41116166F53F8E01C1FA33 /* TLCustomAlert */;
+			targetProxy = B679275F68B583D433DA0BC39A039E37 /* PBXContainerItemProxy */;
+		};
+		CF56313906F0163FB8E7C47D48F9B95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TLCustomAlert_Example";
+			target = 8AE37A86C55A4AE8AE7FEF7E74E3A061 /* Pods-TLCustomAlert_Example */;
+			targetProxy = B7E70F9AAE2E6859CC31E086D5E8A189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D23F24A20D79E7A453A2D8D5A6C1E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAFFD72273C34ED9E4DAA5495FD1F34 /* Pods-TLCustomAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLCustomAlert_Tests/Pods-TLCustomAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLCustomAlert_Tests/Pods-TLCustomAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68BEA38735D7C30C5FF54586754C3151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C305E613BF62B8351E3FD295B798E05B /* TLCustomAlert.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLCustomAlert/TLCustomAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLCustomAlert/TLCustomAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLCustomAlert/TLCustomAlert.modulemap";
+				PRODUCT_MODULE_NAME = TLCustomAlert;
+				PRODUCT_NAME = TLCustomAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C011966C9B5CD3574A5CA6434FB0C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373911515DBC8D34C4132223ED7212D5 /* Pods-TLCustomAlert_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLCustomAlert_Example/Pods-TLCustomAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLCustomAlert_Example/Pods-TLCustomAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD10CD128FE068F052EA4513D43FD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85362E4D9990EF4CA98450ADB8F18A86 /* Pods-TLCustomAlert_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLCustomAlert_Tests/Pods-TLCustomAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLCustomAlert_Tests/Pods-TLCustomAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4ABC7031DA1B5DF5EFACCB6218D460C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C305E613BF62B8351E3FD295B798E05B /* TLCustomAlert.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLCustomAlert/TLCustomAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLCustomAlert/TLCustomAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLCustomAlert/TLCustomAlert.modulemap";
+				PRODUCT_MODULE_NAME = TLCustomAlert;
+				PRODUCT_NAME = TLCustomAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0F025EA61EE983719E1E53A47762DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DF0BF87DFFAE40067C4DFB09F48058 /* Pods-TLCustomAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLCustomAlert_Example/Pods-TLCustomAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLCustomAlert_Example/Pods-TLCustomAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1868F7FFC42DB0AF32A29597AB51ECAA /* Build configuration list for PBXNativeTarget "TLCustomAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BEA38735D7C30C5FF54586754C3151 /* Debug */,
+				E4ABC7031DA1B5DF5EFACCB6218D460C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5B7714B80CD914C9B9290E396AA752 /* Build configuration list for PBXNativeTarget "Pods-TLCustomAlert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD10CD128FE068F052EA4513D43FD777 /* Debug */,
+				4D23F24A20D79E7A453A2D8D5A6C1E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AB1494010DF2E626C86ECF16604839 /* Build configuration list for PBXNativeTarget "Pods-TLCustomAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F025EA61EE983719E1E53A47762DD0 /* Debug */,
+				6C011966C9B5CD3574A5CA6434FB0C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
