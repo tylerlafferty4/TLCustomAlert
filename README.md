@@ -31,7 +31,6 @@ let customAlert = TLCustomAlertView()
 Instantiate the TLCustomAlertActions that you would like to display on the alert. Minimum of 1 and maximum of 2.
 
 ```swift
-Method:
 public init(title: String, handler: (() -> Void)?)
 ```
 
