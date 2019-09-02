@@ -22,7 +22,7 @@ pod 'TLCustomAlert'
 
 ## Author
 
-tylerlafferty4@gmail.com, tylerlafferty4@gmail.com
+Tyler Lafferty - tylerlafferty4@gmail.com
 
 ## License
 
