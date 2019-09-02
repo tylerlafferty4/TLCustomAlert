@@ -22,7 +22,7 @@ pod 'TLCustomAlert'
 ## Usage
 TLCustomAlert is easy to use
 
-Create an instance of TLCustomAlert
+Create an instance of TLCustomAlertView
 
 ```swift
 let customAlert = TLCustomAlertView()
@@ -33,10 +33,11 @@ Instantiate the TLCustomAlertActions that you would like to display on the alert
 ```swift
 Method:
 public init(title: String, handler: (() -> Void)?)
+```
 
-Example:
+```swift
 let okayAction = TLCustomAlertAction(title: "Okay") {
-// Called when okay button is tapped
+    // Called when okay button is tapped
 }
 ```
 
