@@ -40,7 +40,13 @@ let okayAction = TLCustomAlertAction(title: "Okay") {
 }
 ```
 
-Once you have your actions set, call the show method on the TLCustomAlertView. The showAlertView method takes
+Once you have your actions set, call the show method on the TLCustomAlertView. 
+
+```swift
+public func showAlertView(superview: UIView, title: String, text: String, img: String?=nil, confirmAction: TLCustomAlertAction?=nil, cancelAction: TLCustomAlertAction?=nil)
+```
+
+The showAlertView method takes
 
 **Required:**
 
@@ -54,13 +60,14 @@ Once you have your actions set, call the show method on the TLCustomAlertView. T
 5. A TLCustomAlertAction to display on the right
 6. A TLCustomAlertAction to display on the left
 
-```swift
-public func showAlertView(superview: UIView, title: String, text: String, img: String?=nil, confirmAction: TLCustomAlertAction?=nil, cancelAction: TLCustomAlertAction?=nil)
-```
 
 ```swift
 customAlertView.showAlertView(superview: view, title: "CustomApp", text: "This is a custom alert message", confirmAction: okayAction, cancelAction: cancelAction)
 ```
+
+### Notes
+
+If no actions are provided, a default ok button will be displayed.
 
 ## Example
 
